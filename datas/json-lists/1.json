@@ -1,0 +1,33 @@
+{
+  "export": {
+    "edeal": {
+      "gap": "0",
+      "cron": "* * * * *"
+    }
+  },
+  "notification": {
+    "from": {
+      "odette@weka.fr": "Odette"
+    },
+    "to": {
+      "nicrobelin@gmail.com": "Nicolas Robelin",
+      "wketi.test@gmail.com": "test"
+    },
+    "subject": "DI Adette"
+  },
+  "redirect": {
+    "url_success": "http://preprod.weka.fr/boutique/offre-decouverte/gestion-administrative-petite-commune/confirmation",
+    "url_error": ""
+  },
+  "confirmation_email": {
+    "from": {
+      "relation.clientele@weka.fr": "Relation clientèle Weka"
+    },
+    "to": {
+      "email_input_id": "email",
+      "firstname_input_id": "firstName",
+      "lastname_input_id": "lastName"
+    },
+    "subject": "Validation de votre essai | weka.fr"
+  }
+}
